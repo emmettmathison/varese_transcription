@@ -9,4 +9,23 @@ body {
   height: 96vh;
   margin-top: 10px;
   margin-left: 10px;
+  opacity: 0.05;
+  transition: opacity 2s;
+}
+
+#audioPlayer {
+  display: none;
+}
+
+.key {
+  position: fixed;
+  z-index: 2;
+  opacity: 0.99;
+  transition: opacity 2s;
+}
+
+.keyImage {
+  height: 90vh;
+  margin-left: 30vw;
+  margin-top: 20px;
 }
