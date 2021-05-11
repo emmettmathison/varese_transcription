@@ -1,0 +1,24 @@
+{
+  "name": "varese_transcription",
+  "version": "1.0.0",
+  "description": "Edgar Varese Poem Electronique Transcription",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emmettmathison/varese_transcription.git"
+  },
+  "author": "Emmett mathison",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emmettmathison/varese_transcription/issues"
+  },
+  "homepage": "https://github.com/emmettmathison/varese_transcription#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7"
+  }
+}
